@@ -1,6 +1,9 @@
 # Social Media Scheduler Automation (n8n Workflow)
 
+### Local Source
 ![Workflow Overview](image.png)
+### Google Drive Source
+![Google Drive Implementation](image_2.png)
 
 
 At the beginning I want to be a clipper, more precise for tier-1 Valorant scenes. I prep the clips, download the video, slap a subtitle, crop the video and export it. Then I need to upload these clip once per day at certain time, because that's what the algorithm is (everyone said that).
@@ -62,4 +65,4 @@ Import the workflow to your running n8n instance.
 
 ## Implementation
 
-See `local-scheduler.json` for a concrete implementation.
+See `local-scheduler.json` for a local sourced data implementation or `gdrive-scheduler.json` for Google Drive.
